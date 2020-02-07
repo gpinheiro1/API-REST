@@ -1,0 +1,28 @@
+info:
+  component: MovilePay Onboarding Project
+  project:
+    name: onboarding-project
+
+spring:
+  profiles:
+    active: default
+
+    application:
+      name: movilepay-onboarding
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/onboarding?currentSchema=movile
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver
+  flyway:
+    enabled: false
+    url: jdbc:postgresql://localhost:5432/onboarding
+    user: postgres
+    password: postgres
+
+  ldap:
+    urls: ldap://localhost
+    base: dc=movilepay,dc=com
+    username: cn=admin,dc=movilepay,dc=com
+    password: ldap
