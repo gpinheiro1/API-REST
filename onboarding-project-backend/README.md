@@ -1,6 +1,6 @@
 
 
-### . Arquitetura
+### Arquitetura
     O projeto foi estruturado seguinda a Union Architecture seguindo 
     as camadas:
 *   ***api***: *Classes utilizadas em todas as camadas assim como classes que podem ser
