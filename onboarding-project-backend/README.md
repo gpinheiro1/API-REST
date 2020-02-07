@@ -1,10 +1,6 @@
-## Onboarding Project
-___
-### 1. Objetivo
-    Esse projeto tem como objetivo realizar o onboarding dos novos 
-    desenvolvedores na stack utilizada na MovilePay.
 
-### 2. Arquitetura
+
+### . Arquitetura
     O projeto foi estruturado seguinda a Union Architecture seguindo 
     as camadas:
 *   ***api***: *Classes utilizadas em todas as camadas assim como classes que podem ser
@@ -16,7 +12,7 @@ as requisições do client*
 pela conexão com o LDAP*
 *   ***jdbc***: *Implementação da conexão com a base de dados*
     
-### 3. Execução
+### Execução
     Antes de executar qualquer comando, atualiza/baixe as dependencias 
     do projeto: `mvn clean install`
             
@@ -35,7 +31,7 @@ pela conexão com o LDAP*
         "id": "436b57ca-8aaf-43d6-9327-7334f43fbfb1",
         "firstName": "User",
         "lastName": "Teste",
-        "company": "movile",
+        "company": "bla",
         "email": "teste@teste.com",
         "birthDate": "1970-01-01T00:00:00Z",
         "documentId": "12382119801",
@@ -45,7 +41,7 @@ pela conexão com o LDAP*
         "id": "515f85dd-c21c-4e2c-a6b2-d185cdb461e5",
         "firstName": "User Updated",
         "lastName": "Oneeeeeee",
-        "company": "movile",
+        "company": "bla",
         "email": "teste@teste.com",
         "birthDate": "1993-02-04T00:00:00Z",
         "documentId": "12382119801",
@@ -60,7 +56,7 @@ pela conexão com o LDAP*
 	"firstName": "User",
 	"lastName": "Six",
 	"email": "teste@teste.com",
-	"company": "movile",
+	"company": "bla",
 	"type": "ADMIN",
 	"documentId": "12382119801",
 	"birthDate" :"1970-01-01T00:00:00Z",
@@ -70,7 +66,7 @@ pela conexão com o LDAP*
 		"zipCode": "13076-001",
 		"number": 1234,
 		"state": "SP",
-		"street": "Street Movile"
+		"street": "Street bla"
 	}
 }
 ```    
@@ -81,7 +77,7 @@ pela conexão com o LDAP*
     "id": "f1346723-bd3e-421b-b0b7-875f1f5f7b7d",
     "firstName": "User",
     "lastName": "Six",
-    "company": "movile",
+    "company": "bla",
     "email": "teste@teste.com",
     "birthDate": "1970-01-01T00:00:00Z",
     "documentId": "12382119801",
@@ -92,7 +88,7 @@ pela conexão com o LDAP*
         "state": "SP",
         "city": "Campinas 1234",
         "zipCode": "13076-001",
-        "street": "Street Movile",
+        "street": "Street bla",
         "number": 1234,
         "userId": "f1346723-bd3e-421b-b0b7-875f1f5f7b7d"
     }
@@ -108,7 +104,7 @@ pela conexão com o LDAP*
 	"firstName": "User",
 	"lastName": "Six",
 	"email": "teste@teste.com",
-	"company": "movile",
+	"company": "bla",
 	"type": "ADMIN",
 	"documentId": "12382119801",
 	"birthDate" :"1970-01-01T00:00:00Z",
