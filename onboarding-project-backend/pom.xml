@@ -30,7 +30,7 @@
         <kotlin.code.style>official</kotlin.code.style>
         <junit.version>4.12</junit.version>
         <!-- PostgresSQL -->
-        <postgresql.version>42.2.2</postgresql.version>
+        <postgresql.version>42.3.3</postgresql.version>
         <!-- Swagger Docs -->
         <swagger.version>2.9.1</swagger.version>
         <!-- Tests -->
